@@ -1,0 +1,166 @@
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #efefef;
+  font-size: 1.6rem;
+}
+
+body::before {
+  content: "";
+  width: 100%;
+  height: 436px;
+  background: #535971;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.page {
+  width: 750px;
+  margin: auto;
+}
+
+h1 {
+  margin: 14.0rem 0 1.8rem;
+  color: #fff;
+  font-family: "Staatliches", sans-serif;
+  font-size: 4.8rem;
+  font-weight: normal;
+}
+
+p {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  width: 41.7rem;
+  margin-bottom: 5.8rem;
+}
+
+form {
+  border-radius: 2rem 2rem 0 0;
+  background: #fff;
+  width: 750px;
+  padding: 6.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3.0rem;
+}
+
+fieldset {
+  border: none;
+}
+
+fieldset legend {
+    color: #535971;
+    font-size: 2.4rem;
+    font-family: "Staatliches", sans-serif;
+    font-weight: 400;
+    line-height: 3.4rem;
+    border-bottom: 1px solid #E6E6F0;
+}
+
+.fieldset-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+
+.input-wrapper label {
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    color: #4E4958;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+}
+
+.input-wrapper label span {
+    margin-left: 1.0rem;
+    color: #C1BCCC;
+    font-size: 1.2rem;
+    line-height: 2.0rem;
+}
+
+.input-wrapper input {
+    width: 100%;
+    height: 5.6rem;
+    border-radius: 8px;
+    font-size: 1.4rem;
+    font-family: "Poppins", sans-serif;
+    border: 1px solid #E6E6F0;
+    background: #FAFAFC;
+    line-height: 2.4rem;
+    padding: 0 1.0rem;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper input {
+    width: 30.0rem;
+}
+
+.wrappers {
+  display: flex;
+  justify-content: space-between;
+  gap: 3.2rem;
+}
+
+
+.wrappers > div:nth-child(1) {
+  width: 30.0rem;
+}
+
+h2 {
+    color: #535971;
+    font-family: "Staatliches", sans-serif;
+    font-size: 2.0rem;
+    font-weight: normal;
+    line-height: 3.4rem;
+}
+
+.wrapper-date {
+    display: flex;
+    align-items: center;
+}
+
+
+footer {
+    width: 75.0rem;
+    height: 16.0rem;
+    border-radius: 0 0 2.0rem 2.0rem;
+    background: #535971;
+    margin-bottom: 14rem; /* 140px */
+
+
+    display: flex;
+    flex-direction: column;
+}
+
+footer input {
+    color: white;
+    border-radius: 2.0rem;
+    background: #FF5374;
+    border: none;
+    align-items: center;
+    width: 60.8rem;
+    padding: 1.5rem 4.0rem;
+    margin: auto;
+    font-family: "Staatliches", sans-serif;
+
+    font-size: 2.0rem;
+    font-weight: 400;
+    line-height: 2.6rem;
+}
